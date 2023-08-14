@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.Repository.Interface\bin\Debug\netcoreapp3.1\iChiba.WH.Repository.Interface.deps.json
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.Repository.Interface\bin\Debug\netcoreapp3.1\iChiba.WH.Repository.Interface.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.Repository.Interface\bin\Debug\netcoreapp3.1\iChiba.WH.Repository.Interface.pdb
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.Repository.Interface\bin\Debug\netcoreapp3.1\Core.Repository.Interface.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.Repository.Interface\bin\Debug\netcoreapp3.1\iChiba.WH.Model.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.Repository.Interface\bin\Debug\netcoreapp3.1\Core.Specification.Interface.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.Repository.Interface\bin\Debug\netcoreapp3.1\Core.Common.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.Repository.Interface\bin\Debug\netcoreapp3.1\iChiba.WH.Model.pdb
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.Repository.Interface\obj\Debug\netcoreapp3.1\iChiba.WH.Repository.Interface.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.Repository.Interface\obj\Debug\netcoreapp3.1\iChiba.WH.Repository.Interface.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.Repository.Interface\obj\Debug\netcoreapp3.1\iChiba.WH.Repository.Interface.AssemblyInfo.cs
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.Repository.Interface\obj\Debug\netcoreapp3.1\iChiba.WH.Repository.Interface.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.Repository.Interface\obj\Debug\netcoreapp3.1\iChiba.WH.Repository.Interface.csproj.CopyComplete
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.Repository.Interface\obj\Debug\netcoreapp3.1\iChiba.WH.Repository.Interface.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.Repository.Interface\obj\Debug\netcoreapp3.1\iChiba.WH.Repository.Interface.pdb

@@ -1,0 +1,143 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>ca5b9dd4-33e0-41e4-93e2-7f59320de614</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <PropertyGroup>
+	<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Elastic.Apm.NetCoreAll" Version="1.5.1" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.7" />
+    <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="2.7.0" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.6" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Polly" Version="6.1.2" />
+    <PackageReference Include="protobuf-net" Version="2.4.0" />
+    <PackageReference Include="RabbitMQ.Client" Version="5.1.0" />
+    <PackageReference Include="Serilog" Version="2.8.0" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="2.0.2" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="3.0.1" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+    <PackageReference Include="Serilog.Sinks.RollingFile" Version="3.3.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.0.601" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.5.1" />
+    <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\iChiba.Portal.Cache.Interface\iChiba.Portal.Cache.Interface.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.Cache.Redis.Implement\iChiba.Portal.Cache.Redis.Implement.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.Common\iChiba.Portal.Common.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.Index.Elasticsearch.Implement\iChiba.Portal.Index.Elasticsearch.Implement.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.Index.Interface\iChiba.Portal.Index.Interface.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.PublicApi.AppModel\iChiba.Portal.PublicApi.AppModel.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.PublicApi.AppService.Implement\iChiba.Portal.PublicApi.AppService.Implement.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.PublicApi.AppService.Interface\iChiba.Portal.PublicApi.AppService.Interface.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.PublicApi.Driver.Implement\iChiba.Portal.PublicApi.Driver.Implement.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.PublicApi.Driver.Interface\iChiba.Portal.PublicApi.Driver.Interface.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.Service.Implement\iChiba.Portal.Service.Implement.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.Service.Interface\iChiba.Portal.Service.Interface.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Core.AppModel">
+      <HintPath>..\Library\Core.AppModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Cache.Redis.Implement">
+      <HintPath>..\Library\Core.Cache.Redis.Implement.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Cache.Redis.Interface">
+      <HintPath>..\Library\Core.Cache.Redis.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Common">
+      <HintPath>..\Library\Core.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.CQRS">
+      <HintPath>..\Library\Core.CQRS.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Elasticsearch">
+      <HintPath>..\Library\Core.Elasticsearch.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Repository.Abstract">
+      <HintPath>..\Library\Core.Repository.Abstract.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Repository.Interface">
+      <HintPath>..\Library\Core.Repository.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Resilience.Http">
+      <HintPath>..\Library\Core.Resilience.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Ichiba.Cdn.Client.Implement">
+      <HintPath>..\Library\Ichiba.Cdn.Client.Implement.dll</HintPath>
+    </Reference>
+    <Reference Include="Ichiba.Cdn.Client.Interface">
+      <HintPath>..\Library\Ichiba.Cdn.Client.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Ichiba.Cdn.Model">
+      <HintPath>..\Library\Ichiba.Cdn.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="iChiba.Common">
+      <HintPath>..\Library\iChiba.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="iChiba.Event.Api.AppModel">
+      <HintPath>..\Library\iChiba.Event.Api.AppModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Ichiba.Partner.Rakuten">
+      <HintPath>..\Library\Ichiba.Partner.Rakuten.dll</HintPath>
+    </Reference>
+    <Reference Include="Ichiba.Partner.YahooAuction">
+      <HintPath>..\Library\Ichiba.Partner.YahooAuction.dll</HintPath>
+    </Reference>
+    <Reference Include="Ichiba.Partner.YahooShopping">
+      <HintPath>..\Library\Ichiba.Partner.YahooShopping.dll</HintPath>
+    </Reference>
+    <Reference Include="iChiba.Shared">
+      <HintPath>..\Library\iChiba.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="iChibaShopping.Cms.YABid.Commands">
+      <HintPath>..\Library\iChibaShopping.Cms.YABid.Commands.dll</HintPath>
+    </Reference>
+    <Reference Include="iChibaShopping.Core.AppService.Implement">
+      <HintPath>..\Library\iChibaShopping.Core.AppService.Implement.dll</HintPath>
+    </Reference>
+    <Reference Include="iChibaShopping.Core.AppService.Interface">
+      <HintPath>..\Library\iChibaShopping.Core.AppService.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.Doc">
+      <HintPath>..\Library\Spire.Doc.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.License">
+      <HintPath>..\Library\Spire.License.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.Pdf">
+      <HintPath>..\Library\Spire.Pdf.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="web.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

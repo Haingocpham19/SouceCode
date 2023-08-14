@@ -1,0 +1,13 @@
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Service.Interface\bin\Debug\netcoreapp3.1\iChiba.WH.Service.Interface.deps.json
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Service.Interface\bin\Debug\netcoreapp3.1\iChiba.WH.Service.Interface.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Service.Interface\bin\Debug\netcoreapp3.1\iChiba.WH.Service.Interface.pdb
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Service.Interface\bin\Debug\netcoreapp3.1\Core.Common.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Service.Interface\bin\Debug\netcoreapp3.1\iChiba.WH.Model.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Service.Interface\bin\Debug\netcoreapp3.1\iChiba.WH.Model.pdb
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Service.Interface\obj\Debug\netcoreapp3.1\iChiba.WH.Service.Interface.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Service.Interface\obj\Debug\netcoreapp3.1\iChiba.WH.Service.Interface.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Service.Interface\obj\Debug\netcoreapp3.1\iChiba.WH.Service.Interface.AssemblyInfo.cs
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Service.Interface\obj\Debug\netcoreapp3.1\iChiba.WH.Service.Interface.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Service.Interface\obj\Debug\netcoreapp3.1\iChiba.WH.Service.Interface.csproj.CopyComplete
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Service.Interface\obj\Debug\netcoreapp3.1\iChiba.WH.Service.Interface.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Service.Interface\obj\Debug\netcoreapp3.1\iChiba.WH.Service.Interface.pdb

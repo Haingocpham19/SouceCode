@@ -1,0 +1,152 @@
+﻿{
+   "CodeGenerationMode": 1,
+   "ContextClassName": "WarehouseDBContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": null,
+   "ProjectRootNamespace": "iChiba.WH.Model",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 2,
+   "Tables": [
+      {
+         "Name": "[dbo].[AccountPostPcs]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BinLocation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Category]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CategoryGroup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Config]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Container]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Country]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmsServiceCharge]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmsShippingState]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Flight]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Hawb]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Ingredient]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Locations]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Package]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Package_Detail_Mapping]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PackageDetail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PackageDetailQuote]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PcsShippingState]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Product]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductSample]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ServiceCharge]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ServiceCharge_Package_Mapping]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Shipment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ShipmentStatusHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ShippingRoute]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ShippingRoute_Warehouse]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VtpShippingState]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Warehouse]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Warehouse_EMP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WarningInfo]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "DB-MASTER.WAREHOUSE",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseNoConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}

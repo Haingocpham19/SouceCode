@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\iChiba.OM.DbContext\iChiba.OM.DbContext.csproj" />
+    <ProjectReference Include="..\iChiba.OM.Model\iChiba.OM.Model.csproj" />
+    <ProjectReference Include="..\iChiba.OM.Repository.Interface\iChiba.OM.Repository.Interface.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.Common\iChiba.Portal.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Core.Repository.Abstract">
+      <HintPath>..\Library\Core.Repository.Abstract.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Repository.Interface">
+      <HintPath>..\Library\Core.Repository.Interface.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

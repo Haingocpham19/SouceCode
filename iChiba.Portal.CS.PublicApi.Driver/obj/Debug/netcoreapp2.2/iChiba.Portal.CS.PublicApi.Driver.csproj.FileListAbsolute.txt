@@ -1,0 +1,13 @@
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.CS.PublicApi.Driver\bin\Debug\netcoreapp2.2\iChiba.Portal.CS.PublicApi.Driver.deps.json
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.CS.PublicApi.Driver\bin\Debug\netcoreapp2.2\iChiba.Portal.CS.PublicApi.Driver.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.CS.PublicApi.Driver\bin\Debug\netcoreapp2.2\iChiba.Portal.CS.PublicApi.Driver.pdb
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.CS.PublicApi.Driver\bin\Debug\netcoreapp2.2\Core.AppModel.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.CS.PublicApi.Driver\bin\Debug\netcoreapp2.2\Core.Common.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.CS.PublicApi.Driver\bin\Debug\netcoreapp2.2\Core.Resilience.Http.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.CS.PublicApi.Driver\obj\Debug\netcoreapp2.2\iChiba.Portal.CS.PublicApi.Driver.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.CS.PublicApi.Driver\obj\Debug\netcoreapp2.2\iChiba.Portal.CS.PublicApi.Driver.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.CS.PublicApi.Driver\obj\Debug\netcoreapp2.2\iChiba.Portal.CS.PublicApi.Driver.AssemblyInfo.cs
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.CS.PublicApi.Driver\obj\Debug\netcoreapp2.2\iChiba.Portal.CS.PublicApi.Driver.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.CS.PublicApi.Driver\obj\Debug\netcoreapp2.2\iChiba.Portal.CS.PublicApi.Driver.csproj.CopyComplete
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.CS.PublicApi.Driver\obj\Debug\netcoreapp2.2\iChiba.Portal.CS.PublicApi.Driver.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.CS.PublicApi.Driver\obj\Debug\netcoreapp2.2\iChiba.Portal.CS.PublicApi.Driver.pdb

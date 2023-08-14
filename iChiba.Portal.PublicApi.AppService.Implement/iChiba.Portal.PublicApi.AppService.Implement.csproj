@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Formatters.Json" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ichiba.Partner.Api.Driver\Ichiba.Partner.Api.Driver.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.Cache.Interface\iChiba.Portal.Cache.Interface.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.Cache.Model\iChiba.Portal.Cache.Model.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.Common\iChiba.Portal.Common.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.CS.PublicApi.Driver\iChiba.Portal.CS.PublicApi.Driver.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.CustomException\iChiba.Portal.CustomException.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.Index.Interface\iChiba.Portal.Index.Interface.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.Index.Model\iChiba.Portal.Index.Model.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.PublicApi.AppModel\iChiba.Portal.PublicApi.AppModel.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.PublicApi.AppService.Interface\iChiba.Portal.PublicApi.AppService.Interface.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.Service.Interface\iChiba.Portal.Service.Interface.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Core.AppModel">
+      <HintPath>..\Library\Core.AppModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Common">
+      <HintPath>..\Library\Core.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.CQRS">
+      <HintPath>..\Library\Core.CQRS.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.CustomException">
+      <HintPath>..\Library\Core.CustomException.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Elasticsearch">
+      <HintPath>..\Library\Core.Elasticsearch.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Repository.Interface">
+      <HintPath>..\Library\Core.Repository.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Ichiba.Cdn.Model">
+      <HintPath>..\Library\Ichiba.Cdn.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="iChiba.Event.Api.AppModel">
+      <HintPath>..\Library\iChiba.Event.Api.AppModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Ichiba.Portal.Commands">
+      <HintPath>..\Library\Ichiba.Portal.Commands.dll</HintPath>
+    </Reference>
+    <Reference Include="iChibaShopping.Cms.YABid.Commands">
+      <HintPath>..\Library\iChibaShopping.Cms.YABid.Commands.dll</HintPath>
+    </Reference>
+    <Reference Include="iChibaShopping.Core.AppService.Implement">
+      <HintPath>..\Library\iChibaShopping.Core.AppService.Implement.dll</HintPath>
+    </Reference>
+    <Reference Include="iChibaShopping.Core.AppService.Interface">
+      <HintPath>..\Library\iChibaShopping.Core.AppService.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="iChibaShopping.Core.CustomException">
+      <HintPath>..\Library\iChibaShopping.Core.CustomException.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Formatters.Json">
+      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.mvc.formatters.json\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.Formatters.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

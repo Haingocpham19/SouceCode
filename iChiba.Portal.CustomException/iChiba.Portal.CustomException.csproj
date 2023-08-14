@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="iChibaShopping.Core.CustomException">
+      <HintPath>..\Library\iChibaShopping.Core.CustomException.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

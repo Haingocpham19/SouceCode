@@ -1,0 +1,16 @@
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.PublicApi.AppModel\bin\Debug\netcoreapp2.2\iChiba.Portal.PublicApi.AppModel.deps.json
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.PublicApi.AppModel\bin\Debug\netcoreapp2.2\iChiba.Portal.PublicApi.AppModel.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.PublicApi.AppModel\bin\Debug\netcoreapp2.2\iChiba.Portal.PublicApi.AppModel.pdb
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.PublicApi.AppModel\bin\Debug\netcoreapp2.2\Core.AppModel.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.PublicApi.AppModel\bin\Debug\netcoreapp2.2\iChiba.Event.Core.Domain.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.PublicApi.AppModel\bin\Debug\netcoreapp2.2\iChiba.Portal.Common.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.PublicApi.AppModel\bin\Debug\netcoreapp2.2\Core.Common.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.PublicApi.AppModel\bin\Debug\netcoreapp2.2\Ichiba.Cdn.Model.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.PublicApi.AppModel\bin\Debug\netcoreapp2.2\iChiba.Portal.Common.pdb
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.PublicApi.AppModel\obj\Debug\netcoreapp2.2\iChiba.Portal.PublicApi.AppModel.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.PublicApi.AppModel\obj\Debug\netcoreapp2.2\iChiba.Portal.PublicApi.AppModel.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.PublicApi.AppModel\obj\Debug\netcoreapp2.2\iChiba.Portal.PublicApi.AppModel.AssemblyInfo.cs
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.PublicApi.AppModel\obj\Debug\netcoreapp2.2\iChiba.Portal.PublicApi.AppModel.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.PublicApi.AppModel\obj\Debug\netcoreapp2.2\iChiba.Portal.PublicApi.AppModel.csproj.CopyComplete
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.PublicApi.AppModel\obj\Debug\netcoreapp2.2\iChiba.Portal.PublicApi.AppModel.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.PublicApi.AppModel\obj\Debug\netcoreapp2.2\iChiba.Portal.PublicApi.AppModel.pdb

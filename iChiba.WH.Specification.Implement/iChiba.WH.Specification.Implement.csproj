@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\iChiba.WH.Model\iChiba.WH.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Core.Specification.Abstract">
+      <HintPath>..\Library\Core.Specification.Abstract.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Specification.Interface">
+      <HintPath>..\..\..\Ewa_Company\review-gg-map\Library\Core.Specification.Interface.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

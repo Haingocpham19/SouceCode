@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\iChiba.OM.Model\iChiba.OM.Model.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.Common\iChiba.Portal.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Core.Specification.Abstract">
+      <HintPath>..\Library\Core.Specification.Abstract.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Specification.Interface">
+      <HintPath>..\Library\Core.Specification.Interface.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="OrderPackageProduct\" />
+  </ItemGroup>
+</Project>

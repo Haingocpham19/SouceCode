@@ -1,0 +1,55 @@
+[07:17:33 ERR]
+An unhandled exception has occurred while executing the request.
+
+Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException: Unexpected end of request content.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.BadHttpRequestException.Throw(RequestRejectionReason reason)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1ContentLengthMessageBody.ReadAsyncInternal(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 buffer, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.WebUtilities.FileBufferingReadStream.ReadAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.WebUtilities.StreamHelperExtensions.DrainAsync(Stream stream, ArrayPool`1 bytePool, Nullable`1 limit, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+
+[09:20:36 ERR]
+Unable to serialize object
+
+System.Exception: Unable to serialize object
+ ---> System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at ProtoBuf.ProtoWriter.WriteString(String value, ProtoWriter writer) in C:\code\protobuf-net\src\protobuf-net\ProtoWriter.cs:line 599
+   at proto_3(Object , ProtoWriter )
+   at ProtoBuf.Serializers.CompiledSerializer.ProtoBuf.Serializers.IProtoSerializer.Write(Object value, ProtoWriter dest)
+   at ProtoBuf.Meta.RuntimeTypeModel.Serialize(Int32 key, Object value, ProtoWriter dest)
+   at ProtoBuf.ProtoWriter.WriteObject(Object value, Int32 key, ProtoWriter writer)
+   at proto_1(Object , ProtoWriter )
+   at ProtoBuf.Serializers.CompiledSerializer.ProtoBuf.Serializers.IProtoSerializer.Write(Object value, ProtoWriter dest)
+   at ProtoBuf.Meta.RuntimeTypeModel.Serialize(Int32 key, Object value, ProtoWriter dest)
+   at ProtoBuf.Meta.TypeModel.SerializeCore(ProtoWriter writer, Object value)
+   at ProtoBuf.Meta.TypeModel.Serialize(Stream dest, Object value, SerializationContext context)
+   at ProtoBuf.Meta.TypeModel.Serialize(Stream dest, Object value)
+   at ProtoBuf.Serializer.Serialize[T](Stream destination, T instance)
+   at Core.Common.Serialize.ProtoBufSerialize(Object item)
+   --- End of inner exception stack trace ---
+   at Core.Common.Serialize.ProtoBufSerialize(Object item)
+   at Core.Cache.Redis.Implement.RedisStorage.ConvertInput(Object value)
+   at Core.Cache.Redis.Implement.RedisStorage.StringSet(String key, Object value, Nullable`1 timeout)
+   at iChiba.Portal.Cache.Redis.Implement.ExtensionCartCache.StringSet(ExtensionCards model, String userId) in C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.Cache.Redis.Implement\ExtensionCartCache.cs:line 37
+   at iChiba.Portal.Cache.Redis.Implement.ExtensionCartCache.AddExtensionCart(ExtensionCard model, String userId) in C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.Cache.Redis.Implement\ExtensionCartCache.cs:line 51
+   at iChiba.Portal.ExtensionApi.AppService.Implement.ExtensionCardService.AddToCart(ExtensionCardRequest request) in C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.ExtensionApi.AppService.Implement\ExtensionCardService.cs:line 27
+   at iChiba.Portal.ExtensionApi.Controllers.ExtensionCardController.AddToExtensionCart(ExtensionCardRequest request) in C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.ExtensionApi\Controllers\ExtensionCardController.cs:line 32
+
+

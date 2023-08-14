@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Models\DeliveryBill\ProductViewModel.cs~RFa129a1.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Core.AppModel">
+      <HintPath>..\Library\Core.AppModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Common">
+      <HintPath>..\Library\Core.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ichiba.Partner.Api.Driver\Ichiba.Partner.Api.Driver.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.Common\iChiba.Portal.Common.csproj" />
+    <ProjectReference Include="..\iChiba.WH.Model\iChiba.WH.Model.csproj" />
+  </ItemGroup>
+
+</Project>

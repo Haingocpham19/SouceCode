@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ichiba.IS4.Api.Driver\iChiba.IS4.Api.Driver.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.PrivateApi.AppModel\iChiba.Portal.PrivateApi.AppModel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Core.AppModel">
+      <HintPath>..\Library\Core.AppModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Common">
+      <HintPath>..\Library\Core.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Resilience.Http">
+      <HintPath>..\Library\Core.Resilience.Http.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\iChiba.Portal.Common\iChiba.Portal.Common.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.Service.Interface\iChiba.Portal.Service.Interface.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Core.Common">
+      <HintPath>..\Library\Core.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Elasticsearch">
+      <HintPath>..\Library\Core.Elasticsearch.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Repository.Interface">
+      <HintPath>..\Library\Core.Repository.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Resilience.Http">
+      <HintPath>..\Library\Core.Resilience.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Specification.Abstract">
+      <HintPath>..\Library\Core.Specification.Abstract.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Specification.Interface">
+      <HintPath>..\Library\Core.Specification.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Ichiba.Partner.Rakuten">
+      <HintPath>..\Library\Ichiba.Partner.Rakuten.dll</HintPath>
+    </Reference>
+    <Reference Include="Ichiba.Partner.YahooAuction">
+      <HintPath>..\Library\Ichiba.Partner.YahooAuction.dll</HintPath>
+    </Reference>
+    <Reference Include="Ichiba.Partner.YahooShopping">
+      <HintPath>..\Library\Ichiba.Partner.YahooShopping.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,1293 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi/iChiba.Portal.PublicApi.csproj": {}
+  },
+  "projects": {
+    "/Users/admin/Documents/SourceCode/Ichiba.Partner.Api.Driver/Ichiba.Partner.Api.Driver.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/admin/Documents/SourceCode/Ichiba.Partner.Api.Driver/Ichiba.Partner.Api.Driver.csproj",
+        "projectName": "Ichiba.Partner.Api.Driver",
+        "projectPath": "/Users/admin/Documents/SourceCode/Ichiba.Partner.Api.Driver/Ichiba.Partner.Api.Driver.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Documents/SourceCode/Ichiba.Partner.Api.Driver/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Interface/iChiba.Portal.Cache.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Interface/iChiba.Portal.Cache.Interface.csproj",
+        "projectName": "iChiba.Portal.Cache.Interface",
+        "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Interface/iChiba.Portal.Cache.Interface.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Interface/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Model/iChiba.Portal.Cache.Model.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Model/iChiba.Portal.Cache.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Model/iChiba.Portal.Cache.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Model/iChiba.Portal.Cache.Model.csproj",
+        "projectName": "iChiba.Portal.Cache.Model",
+        "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Model/iChiba.Portal.Cache.Model.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Model/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "protobuf-net": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Redis.Implement/iChiba.Portal.Cache.Redis.Implement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Redis.Implement/iChiba.Portal.Cache.Redis.Implement.csproj",
+        "projectName": "iChiba.Portal.Cache.Redis.Implement",
+        "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Redis.Implement/iChiba.Portal.Cache.Redis.Implement.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Redis.Implement/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Interface/iChiba.Portal.Cache.Interface.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Interface/iChiba.Portal.Cache.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/admin/Documents/SourceCode/iChiba.Portal.Common/iChiba.Portal.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/admin/Documents/SourceCode/iChiba.Portal.Common/iChiba.Portal.Common.csproj",
+        "projectName": "iChiba.Portal.Common",
+        "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Common/iChiba.Portal.Common.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/admin/Documents/SourceCode/iChiba.Portal.CS.PublicApi.Driver/iChiba.Portal.CS.PublicApi.Driver.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/admin/Documents/SourceCode/iChiba.Portal.CS.PublicApi.Driver/iChiba.Portal.CS.PublicApi.Driver.csproj",
+        "projectName": "iChiba.Portal.CS.PublicApi.Driver",
+        "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.CS.PublicApi.Driver/iChiba.Portal.CS.PublicApi.Driver.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.CS.PublicApi.Driver/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/admin/Documents/SourceCode/iChiba.Portal.CustomException/iChiba.Portal.CustomException.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/admin/Documents/SourceCode/iChiba.Portal.CustomException/iChiba.Portal.CustomException.csproj",
+        "projectName": "iChiba.Portal.CustomException",
+        "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.CustomException/iChiba.Portal.CustomException.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.CustomException/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Elasticsearch.Implement/iChiba.Portal.Index.Elasticsearch.Implement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Elasticsearch.Implement/iChiba.Portal.Index.Elasticsearch.Implement.csproj",
+        "projectName": "iChiba.Portal.Index.Elasticsearch.Implement",
+        "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Elasticsearch.Implement/iChiba.Portal.Index.Elasticsearch.Implement.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Elasticsearch.Implement/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Common/iChiba.Portal.Common.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Common/iChiba.Portal.Common.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Interface/iChiba.Portal.Index.Interface.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Interface/iChiba.Portal.Index.Interface.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Model/iChiba.Portal.Index.Model.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Model/iChiba.Portal.Index.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Interface/iChiba.Portal.Index.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Interface/iChiba.Portal.Index.Interface.csproj",
+        "projectName": "iChiba.Portal.Index.Interface",
+        "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Interface/iChiba.Portal.Index.Interface.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Interface/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Common/iChiba.Portal.Common.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Common/iChiba.Portal.Common.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Model/iChiba.Portal.Index.Model.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Model/iChiba.Portal.Index.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Model/iChiba.Portal.Index.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Model/iChiba.Portal.Index.Model.csproj",
+        "projectName": "iChiba.Portal.Index.Model",
+        "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Model/iChiba.Portal.Index.Model.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Model/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Common/iChiba.Portal.Common.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Common/iChiba.Portal.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.AppModel/iChiba.Portal.PublicApi.AppModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.AppModel/iChiba.Portal.PublicApi.AppModel.csproj",
+        "projectName": "iChiba.Portal.PublicApi.AppModel",
+        "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.AppModel/iChiba.Portal.PublicApi.AppModel.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.AppModel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Common/iChiba.Portal.Common.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Common/iChiba.Portal.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.AppService.Implement/iChiba.Portal.PublicApi.AppService.Implement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.AppService.Implement/iChiba.Portal.PublicApi.AppService.Implement.csproj",
+        "projectName": "iChiba.Portal.PublicApi.AppService.Implement",
+        "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.AppService.Implement/iChiba.Portal.PublicApi.AppService.Implement.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.AppService.Implement/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "/Users/admin/Documents/SourceCode/Ichiba.Partner.Api.Driver/Ichiba.Partner.Api.Driver.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/Ichiba.Partner.Api.Driver/Ichiba.Partner.Api.Driver.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Interface/iChiba.Portal.Cache.Interface.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Interface/iChiba.Portal.Cache.Interface.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Model/iChiba.Portal.Cache.Model.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Model/iChiba.Portal.Cache.Model.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Common/iChiba.Portal.Common.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Common/iChiba.Portal.Common.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.CS.PublicApi.Driver/iChiba.Portal.CS.PublicApi.Driver.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.CS.PublicApi.Driver/iChiba.Portal.CS.PublicApi.Driver.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.CustomException/iChiba.Portal.CustomException.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.CustomException/iChiba.Portal.CustomException.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Interface/iChiba.Portal.Index.Interface.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Interface/iChiba.Portal.Index.Interface.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Model/iChiba.Portal.Index.Model.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Model/iChiba.Portal.Index.Model.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.AppModel/iChiba.Portal.PublicApi.AppModel.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.AppModel/iChiba.Portal.PublicApi.AppModel.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.AppService.Interface/iChiba.Portal.PublicApi.AppService.Interface.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.AppService.Interface/iChiba.Portal.PublicApi.AppService.Interface.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Service.Interface/iChiba.Portal.Service.Interface.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Service.Interface/iChiba.Portal.Service.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Formatters.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.AppService.Interface/iChiba.Portal.PublicApi.AppService.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.AppService.Interface/iChiba.Portal.PublicApi.AppService.Interface.csproj",
+        "projectName": "iChiba.Portal.PublicApi.AppService.Interface",
+        "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.AppService.Interface/iChiba.Portal.PublicApi.AppService.Interface.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.AppService.Interface/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.CS.PublicApi.Driver/iChiba.Portal.CS.PublicApi.Driver.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.CS.PublicApi.Driver/iChiba.Portal.CS.PublicApi.Driver.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.AppModel/iChiba.Portal.PublicApi.AppModel.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.AppModel/iChiba.Portal.PublicApi.AppModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.Driver.Implement/iChiba.Portal.PublicApi.Driver.Implement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.Driver.Implement/iChiba.Portal.PublicApi.Driver.Implement.csproj",
+        "projectName": "iChiba.Portal.PublicApi.Driver.Implement",
+        "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.Driver.Implement/iChiba.Portal.PublicApi.Driver.Implement.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.Driver.Implement/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Common/iChiba.Portal.Common.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Common/iChiba.Portal.Common.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.Driver.Interface/iChiba.Portal.PublicApi.Driver.Interface.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.Driver.Interface/iChiba.Portal.PublicApi.Driver.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.Driver.Interface/iChiba.Portal.PublicApi.Driver.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.Driver.Interface/iChiba.Portal.PublicApi.Driver.Interface.csproj",
+        "projectName": "iChiba.Portal.PublicApi.Driver.Interface",
+        "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.Driver.Interface/iChiba.Portal.PublicApi.Driver.Interface.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.Driver.Interface/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi/iChiba.Portal.PublicApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi/iChiba.Portal.PublicApi.csproj",
+        "projectName": "iChiba.Portal.PublicApi",
+        "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi/iChiba.Portal.PublicApi.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Interface/iChiba.Portal.Cache.Interface.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Interface/iChiba.Portal.Cache.Interface.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Redis.Implement/iChiba.Portal.Cache.Redis.Implement.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Redis.Implement/iChiba.Portal.Cache.Redis.Implement.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Common/iChiba.Portal.Common.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Common/iChiba.Portal.Common.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Elasticsearch.Implement/iChiba.Portal.Index.Elasticsearch.Implement.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Elasticsearch.Implement/iChiba.Portal.Index.Elasticsearch.Implement.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Interface/iChiba.Portal.Index.Interface.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Interface/iChiba.Portal.Index.Interface.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.AppModel/iChiba.Portal.PublicApi.AppModel.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.AppModel/iChiba.Portal.PublicApi.AppModel.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.AppService.Implement/iChiba.Portal.PublicApi.AppService.Implement.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.AppService.Implement/iChiba.Portal.PublicApi.AppService.Implement.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.AppService.Interface/iChiba.Portal.PublicApi.AppService.Interface.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.AppService.Interface/iChiba.Portal.PublicApi.AppService.Interface.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.Driver.Implement/iChiba.Portal.PublicApi.Driver.Implement.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.Driver.Implement/iChiba.Portal.PublicApi.Driver.Implement.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.Driver.Interface/iChiba.Portal.PublicApi.Driver.Interface.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.PublicApi.Driver.Interface/iChiba.Portal.PublicApi.Driver.Interface.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Service.Implement/iChiba.Portal.Service.Implement.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Service.Implement/iChiba.Portal.Service.Implement.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Service.Interface/iChiba.Portal.Service.Interface.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Service.Interface/iChiba.Portal.Service.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Elastic.Apm.NetCoreAll": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.7, )"
+            },
+            "IdentityServer4.AccessTokenValidation": {
+              "target": "Package",
+              "version": "[2.7.0, )"
+            },
+            "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[6.1.2, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.RollingFile": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.0.601, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "protobuf-net": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[3.1.32, 3.1.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/admin/Documents/SourceCode/iChiba.Portal.Service.Implement/iChiba.Portal.Service.Implement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/admin/Documents/SourceCode/iChiba.Portal.Service.Implement/iChiba.Portal.Service.Implement.csproj",
+        "projectName": "iChiba.Portal.Service.Implement",
+        "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Service.Implement/iChiba.Portal.Service.Implement.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Service.Implement/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Common/iChiba.Portal.Common.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Common/iChiba.Portal.Common.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Service.Interface/iChiba.Portal.Service.Interface.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Service.Interface/iChiba.Portal.Service.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/admin/Documents/SourceCode/iChiba.Portal.Service.Interface/iChiba.Portal.Service.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/admin/Documents/SourceCode/iChiba.Portal.Service.Interface/iChiba.Portal.Service.Interface.csproj",
+        "projectName": "iChiba.Portal.Service.Interface",
+        "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Service.Interface/iChiba.Portal.Service.Interface.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Service.Interface/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Interface/iChiba.Portal.Cache.Interface.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Interface/iChiba.Portal.Cache.Interface.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Model/iChiba.Portal.Cache.Model.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Cache.Model/iChiba.Portal.Cache.Model.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Common/iChiba.Portal.Common.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Common/iChiba.Portal.Common.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Interface/iChiba.Portal.Index.Interface.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Interface/iChiba.Portal.Index.Interface.csproj"
+              },
+              "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Model/iChiba.Portal.Index.Model.csproj": {
+                "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.Index.Model/iChiba.Portal.Index.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

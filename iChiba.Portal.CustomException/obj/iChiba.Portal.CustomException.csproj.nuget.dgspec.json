@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/admin/Documents/SourceCode/iChiba.Portal.CustomException/iChiba.Portal.CustomException.csproj": {}
+  },
+  "projects": {
+    "/Users/admin/Documents/SourceCode/iChiba.Portal.CustomException/iChiba.Portal.CustomException.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/admin/Documents/SourceCode/iChiba.Portal.CustomException/iChiba.Portal.CustomException.csproj",
+        "projectName": "iChiba.Portal.CustomException",
+        "projectPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.CustomException/iChiba.Portal.CustomException.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Documents/SourceCode/iChiba.Portal.CustomException/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/admin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

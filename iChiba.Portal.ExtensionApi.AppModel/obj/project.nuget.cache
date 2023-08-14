@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "KZmilvNiURJtBn066lmK+AsPMWcsihyM/tZmW0Gd6psbdzDIqJqxPdFg1cAgZAYMygJ/zp2LR3L/HPVfi7Q+XQ==",
+  "success": true,
+  "projectFilePath": "/Users/admin/Documents/SourceCode/iChiba.Portal.ExtensionApi.AppModel/iChiba.Portal.ExtensionApi.AppModel.csproj",
+  "expectedPackageFiles": [
+    "/Users/admin/.nuget/packages/microsoft.netcore.platforms/2.1.0/microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "/Users/admin/.nuget/packages/protobuf-net/2.4.0/protobuf-net.2.4.0.nupkg.sha512",
+    "/Users/admin/.nuget/packages/system.private.servicemodel/4.5.3/system.private.servicemodel.4.5.3.nupkg.sha512",
+    "/Users/admin/.nuget/packages/system.reflection.dispatchproxy/4.5.0/system.reflection.dispatchproxy.4.5.0.nupkg.sha512",
+    "/Users/admin/.nuget/packages/system.security.principal.windows/4.5.0/system.security.principal.windows.4.5.0.nupkg.sha512",
+    "/Users/admin/.nuget/packages/system.servicemodel.primitives/4.5.3/system.servicemodel.primitives.4.5.3.nupkg.sha512",
+    "/Users/admin/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/admin/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

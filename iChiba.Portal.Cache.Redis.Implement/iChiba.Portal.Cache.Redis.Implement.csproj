@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\iChiba.Portal.Cache.Interface\iChiba.Portal.Cache.Interface.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Core.Cache.Redis.Implement">
+      <HintPath>..\Library\Core.Cache.Redis.Implement.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Cache.Redis.Interface">
+      <HintPath>..\Library\Core.Cache.Redis.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Common">
+      <HintPath>..\Library\Core.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\iChiba.Portal.Repository.Interface\iChiba.WH.Repository.Interface.csproj" />
+    <ProjectReference Include="..\iChiba.WH.DbContext\iChiba.WH.DbContext.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Core.Repository.Abstract">
+      <HintPath>..\Library\Core.Repository.Abstract.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Repository.Interface">
+      <HintPath>..\Library\Core.Repository.Interface.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

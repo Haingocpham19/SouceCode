@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPPlus.Core" Version="1.5.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ichiba.IS4.Api.Driver\iChiba.IS4.Api.Driver.csproj" />
+    <ProjectReference Include="..\iChiba.OM.Model\iChiba.OM.Model.csproj" />
+    <ProjectReference Include="..\Ichiba.Partner.Api.Driver\Ichiba.Partner.Api.Driver.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.PrivateApi.AppModel\iChiba.Portal.PrivateApi.AppModel.csproj" />
+    <ProjectReference Include="..\iChiba.WH.Api.Driver\iChiba.WH.Api.Driver.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Core.AppModel">
+      <HintPath>..\Library\Core.AppModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Ichiba.Cdn.Model">
+      <HintPath>..\Library\Ichiba.Cdn.Model.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

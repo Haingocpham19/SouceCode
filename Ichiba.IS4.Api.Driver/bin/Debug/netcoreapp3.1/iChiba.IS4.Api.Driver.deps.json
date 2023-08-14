@@ -1,0 +1,67 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "iChiba.IS4.Api.Driver/1.0.0": {
+        "dependencies": {
+          "Core.AppModel": "1.0.0.0",
+          "Core.Common": "1.0.0.0",
+          "Core.Resilience.Http": "1.0.0.0"
+        },
+        "runtime": {
+          "iChiba.IS4.Api.Driver.dll": {}
+        }
+      },
+      "Core.AppModel/1.0.0.0": {
+        "runtime": {
+          "Core.AppModel.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Core.Common/1.0.0.0": {
+        "runtime": {
+          "Core.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Core.Resilience.Http/1.0.0.0": {
+        "runtime": {
+          "Core.Resilience.Http.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "iChiba.IS4.Api.Driver/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Core.AppModel/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Core.Common/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Core.Resilience.Http/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

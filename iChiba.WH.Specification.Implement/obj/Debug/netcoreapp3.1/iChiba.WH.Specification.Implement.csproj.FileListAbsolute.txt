@@ -1,0 +1,13 @@
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Specification.Implement\bin\Debug\netcoreapp3.1\iChiba.WH.Specification.Implement.deps.json
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Specification.Implement\bin\Debug\netcoreapp3.1\iChiba.WH.Specification.Implement.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Specification.Implement\bin\Debug\netcoreapp3.1\iChiba.WH.Specification.Implement.pdb
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Specification.Implement\bin\Debug\netcoreapp3.1\Core.Specification.Abstract.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Specification.Implement\bin\Debug\netcoreapp3.1\iChiba.WH.Model.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Specification.Implement\bin\Debug\netcoreapp3.1\iChiba.WH.Model.pdb
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Specification.Implement\obj\Debug\netcoreapp3.1\iChiba.WH.Specification.Implement.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Specification.Implement\obj\Debug\netcoreapp3.1\iChiba.WH.Specification.Implement.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Specification.Implement\obj\Debug\netcoreapp3.1\iChiba.WH.Specification.Implement.AssemblyInfo.cs
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Specification.Implement\obj\Debug\netcoreapp3.1\iChiba.WH.Specification.Implement.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Specification.Implement\obj\Debug\netcoreapp3.1\iChiba.WH.Specification.Implement.csproj.CopyComplete
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Specification.Implement\obj\Debug\netcoreapp3.1\iChiba.WH.Specification.Implement.dll
+C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.WH.Specification.Implement\obj\Debug\netcoreapp3.1\iChiba.WH.Specification.Implement.pdb

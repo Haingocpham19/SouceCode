@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPPlus.Core" Version="1.5.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ichiba.IS4.Api.Driver\iChiba.IS4.Api.Driver.csproj" />
+    <ProjectReference Include="..\Ichiba.Partner.Api.Driver\Ichiba.Partner.Api.Driver.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.Cache.Model\iChiba.Portal.Cache.Model.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.ExtensionApi.AppModel\iChiba.Portal.ExtensionApi.AppModel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Core.AppModel">
+      <HintPath>..\Library\Core.AppModel.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

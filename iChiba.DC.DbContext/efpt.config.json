@@ -1,0 +1,92 @@
+﻿{
+   "CodeGenerationMode": 0,
+   "ContextClassName": "DATA_COMMONContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": null,
+   "ProceduresReturnList": false,
+   "ProjectRootNamespace": "iChiba.DC.Model",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[BID_CONFIG]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BID_EXTERNAL_CONFIG]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BUYER_CONFIG]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[COUNTRY]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DDIMPORT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EXCHANGERATES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LANGUAGES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LOCALERESOURCES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LOCALIZEDPROPERTIES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LOCATIONS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ORDER_TYPE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PRODUCT_ORIGIN]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PRODUCT_TYPE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PRODUCT_TYPE_GROUP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Store_CollectOrderType]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": "DB-MASTER.DATA_COMMON",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseNoConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSpatial": false
+}

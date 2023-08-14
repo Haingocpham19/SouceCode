@@ -1,0 +1,45 @@
+[15:03:02 ERR]
+WRONGTYPE Operation against a key holding the wrong kind of value
+
+StackExchange.Redis.RedisServerException: WRONGTYPE Operation against a key holding the wrong kind of value
+   at Core.Cache.Redis.Implement.RedisStorage.HashSet(String key, String field, Object value)
+   at iChiba.Portal.ExtensionApi.AppService.Implement.ShoppingCartService.iChiba.Portal.ExtensionApi.AppService.Interface.IShoppingCartService.AddToCart(ShoppingCartRequest request) in C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.ExtensionApi.AppService.Implement\ShoppingCartService.cs:line 31
+   at iChiba.Portal.ExtensionApi.Controllers.ShoppingCartController.AddListToCart(ShoppingCartRequest request) in C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.ExtensionApi\Controllers\ShoppingCartController.cs:line 32
+
+
+[15:07:32 ERR]
+WRONGTYPE Operation against a key holding the wrong kind of value
+
+StackExchange.Redis.RedisServerException: WRONGTYPE Operation against a key holding the wrong kind of value
+   at Core.Cache.Redis.Implement.RedisStorage.HashSet(String key, String field, Object value)
+   at iChiba.Portal.ExtensionApi.AppService.Implement.ShoppingCartService.iChiba.Portal.ExtensionApi.AppService.Interface.IShoppingCartService.AddToCart(ShoppingCartRequest request) in C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.ExtensionApi.AppService.Implement\ShoppingCartService.cs:line 31
+   at iChiba.Portal.ExtensionApi.Controllers.ShoppingCartController.AddListToCart(ShoppingCartRequest request) in C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.ExtensionApi\Controllers\ShoppingCartController.cs:line 32
+
+
+[16:17:38 ERR]
+WRONGTYPE Operation against a key holding the wrong kind of value
+
+StackExchange.Redis.RedisServerException: WRONGTYPE Operation against a key holding the wrong kind of value
+   at Core.Cache.Redis.Implement.RedisStorage.HashSet(String key, String field, Object value)
+   at iChiba.Portal.ExtensionApi.AppService.Implement.ShoppingCartService.iChiba.Portal.ExtensionApi.AppService.Interface.IShoppingCartService.AddToCart(ShoppingCartRequest request) in C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.ExtensionApi.AppService.Implement\ShoppingCartService.cs:line 31
+   at iChiba.Portal.ExtensionApi.Controllers.ShoppingCartController.AddListToCart(ShoppingCartRequest request) in C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.ExtensionApi\Controllers\ShoppingCartController.cs:line 32
+
+
+[16:29:03 ERR]
+WRONGTYPE Operation against a key holding the wrong kind of value
+
+StackExchange.Redis.RedisServerException: WRONGTYPE Operation against a key holding the wrong kind of value
+   at Core.Cache.Redis.Implement.RedisStorage.HashSet(String key, String field, Object value)
+   at iChiba.Portal.ExtensionApi.AppService.Implement.ShoppingCartService.iChiba.Portal.ExtensionApi.AppService.Interface.IShoppingCartService.AddToCart(ShoppingCartRequest request) in C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.ExtensionApi.AppService.Implement\ShoppingCartService.cs:line 31
+   at iChiba.Portal.ExtensionApi.Controllers.ShoppingCartController.AddListToCart(ShoppingCartRequest request) in C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.ExtensionApi\Controllers\ShoppingCartController.cs:line 32
+
+
+[16:48:24 ERR]
+WRONGTYPE Operation against a key holding the wrong kind of value
+
+StackExchange.Redis.RedisServerException: WRONGTYPE Operation against a key holding the wrong kind of value
+   at Core.Cache.Redis.Implement.RedisStorage.HashSet(String key, String field, Object value)
+   at iChiba.Portal.ExtensionApi.AppService.Implement.ShoppingCartService.iChiba.Portal.ExtensionApi.AppService.Interface.IShoppingCartService.AddToCart(ShoppingCartRequest request) in C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.ExtensionApi.AppService.Implement\ShoppingCartService.cs:line 31
+   at iChiba.Portal.ExtensionApi.Controllers.ShoppingCartController.AddListToCart(ShoppingCartRequest request) in C:\Users\Admin\Desktop\PCS Portal\pcs-portal-web-api\iChiba.Portal.ExtensionApi\Controllers\ShoppingCartController.cs:line 32
+
+

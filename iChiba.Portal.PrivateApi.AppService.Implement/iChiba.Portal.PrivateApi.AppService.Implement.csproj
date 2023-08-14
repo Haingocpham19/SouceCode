@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="EPPlus.Core" Version="1.5.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Serilog" Version="2.10.0" />
+    <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\iChiba.OM.Service.Interface\iChiba.OM.Service.Interface.csproj" />
+    <ProjectReference Include="..\iChiba.OM.Specification.Implement\iChiba.OM.Specification.Implement.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.Cache.Interface\iChiba.Portal.Cache.Interface.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.Common\iChiba.Portal.Common.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.CustomException\iChiba.Portal.CustomException.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.PrivateApi.AppService.Interface\iChiba.Portal.PrivateApi.AppService.Interface.csproj" />
+    <ProjectReference Include="..\iChiba.Portal.Service.Interface\iChiba.Portal.Service.Interface.csproj" />
+    <ProjectReference Include="..\iChiba.WH.Api.Driver\iChiba.WH.Api.Driver.csproj" />
+    <ProjectReference Include="..\iChiba.WH.Service.Interface\iChiba.WH.Service.Interface.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Core.AppModel">
+      <HintPath>..\Library\Core.AppModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Common">
+      <HintPath>..\Library\Core.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.CustomException">
+      <HintPath>..\Library\Core.CustomException.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Repository.Interface">
+      <HintPath>..\Library\Core.Repository.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Ichiba.Cdn.Client.Interface">
+      <HintPath>..\Library\Ichiba.Cdn.Client.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Ichiba.Cdn.Model">
+      <HintPath>..\Library\Ichiba.Cdn.Model.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "iChiba.Portal.CustomException/1.0.0": {
+        "dependencies": {
+          "iChibaShopping.Core.CustomException": "1.0.0.0"
+        },
+        "runtime": {
+          "iChiba.Portal.CustomException.dll": {}
+        }
+      },
+      "iChibaShopping.Core.CustomException/1.0.0.0": {
+        "runtime": {
+          "iChibaShopping.Core.CustomException.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "iChiba.Portal.CustomException/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "iChibaShopping.Core.CustomException/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

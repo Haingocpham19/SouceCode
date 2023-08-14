@@ -1,0 +1,404 @@
+﻿{
+   "CodeGenerationMode": 1,
+   "ContextClassName": "CustomerDBContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": null,
+   "ProjectRootNamespace": "iChiba.OM.DbContext",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 1,
+   "Tables": [
+      {
+         "Name": "[dbo].[ACCACCOUNT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BANK_PAYMENT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BANK_TRANSACTION_HISTORY]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BANKIC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BANKINFO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BID_CONFIG]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BID_EXTERNAL_CONFIG]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BUYER_CONFIG]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[COD_IMPORT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CUSTOMER]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CUSTOMER_ADDRESS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CUSTOMER_BANKINFO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CUSTOMER_CODE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CUSTOMER_GROUP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CUSTOMER_NOTIFY_CONFIG]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CUSTOMER_PROFILE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CUSTOMER_PROMOTION]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CUSTOMER_WALLET]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CUSTOMER_WAREHOUSE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CustomerNotifyConfig]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DDIMPORT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DEPOSIT_MESSAGE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DEPOSITS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DEPOSITS_EMAIL_NOTIFY]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmailTemplate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EMPLOYEE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EMPLOYEE_PROFILE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EXCHANGERATES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FBCOMMENT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FBHISTORY]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FBPACKAGE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FBPACKAGEDETAIL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FBPRODUCT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FEEDBACK]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FREEZE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FREEZE_ACC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LEVEL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LEVEL_TRANPORT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LEVEL_TRANPORT_GROUP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[METEMP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MONEY_TRANSACTION_HISTORY]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NOTIFY_CONFIG]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NOTIFY_CONFIG_GROUP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NotifyConfig]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ORDER]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ORDER_COM]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ORDER_COM_GROUP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ORDER_COM_MONEY]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ORDER_DELIVERYBILL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ORDER_EMAIL_NOTIFY]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ORDER_IMPORT_TEMP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ORDER_IMPORT_TEMPEX]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ORDER_PACKAGE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ORDER_PACKAGE_PRODUCT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ORDER_PAYIMAGE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ORDER_PROOF_PAYMENT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ORDER_PURCHASE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ORDER_PURCHASE_LOG]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ORDER_REVENUE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ORDER_SERVICE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ORDER_SERVICE_MAPPING]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ORDER_TRACKING]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ORDERDETAIL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OrderMessage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PACKAGE_TRACKING]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PAYFORBUYER]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PAYMENT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PAYMENT_ACCOUNT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PAYMENT_MESSAGE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PRODUCT_ORIGIN]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PRODUCT_TYPE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PRODUCT_TYPE_GROUP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PROOF_PAYMENT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PURCHASE_REPORT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PURCHASE_REPORT_DATA]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QUEUE_CUSTOMERCARE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SHIPPING_JPCOMPANY]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SUCCESSFULBID]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SUPPLIER]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SurveyProductTypeGroup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SurveyShippingRoute]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SYNC_BANK_TRANSACTION_HISTORY]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TRAIN_PROTYPE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WALLET]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WALLET_TRANS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WITHDRAWAL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WITHDRAWAL_MESSAGE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Workflow]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WorkflowHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WorkflowVariable]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WorkItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EMAIL_MK_VIEW]",
+         "ObjectType": 3
+      },
+      {
+         "Name": "[dbo].[View_RandonNumber]",
+         "ObjectType": 3
+      }
+   ],
+   "UiHint": "DB-MASTER.ERP",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseNoConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}
